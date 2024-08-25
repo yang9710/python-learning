@@ -20,11 +20,11 @@ class MyIterator:
 
 demo = MyIterator()
 
-# while True:
-#   try:
-#     print(next(demo))
-#   except StopIteration:
-#     break
+while True:
+  try:
+    print(next(demo))
+  except StopIteration:
+    break
 
-for i in demo:
-  print(i)
+# for i in demo:
+#   print(i)
